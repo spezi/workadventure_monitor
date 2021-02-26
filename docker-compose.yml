@@ -35,7 +35,7 @@ services:
     restart: always
 
   caddy:
-          image: caddy:latest
+    image: caddy:latest
     volumes:
       - ./caddy/data:/data
       - ./caddy/config:/config
